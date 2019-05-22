@@ -1,0 +1,26 @@
+body{
+    font-size: small;
+    font-family: Verdana;
+}
+h1,h2{
+    color: #06287e;
+}
+h1{
+    font-size: 150%;
+}
+h2{
+    font-size: 130%;
+}
+.gurate{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #a47e3c;
+    padding: 25px;
+    margin: 30px;
+    background-image: url("http://c.biancheng.net/templets/new/images/logo.png?v=1.3.5");
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-top: 60px;
+    border-radius: 99px;
+}

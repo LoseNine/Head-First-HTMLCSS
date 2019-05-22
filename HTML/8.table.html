@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            font-size: large;
+        }
+        td,th{
+            border:1px solid black;
+        }
+        table{
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        th{
+            background-color: #d9534f;
+        }
+        tr:nth-child(odd){
+            background-color: #ccc9ac;
+        }
+        tr:nth-child(even){
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <caption>Test</caption>
+    <tr>
+        <th>City</th>
+        <th>Date</th>
+        <th>Diner</th>
+    </tr>
+    <tr>
+        <td rowspan="2">walla</td>
+        <td >2019-1-1</td>
+        <td rowspan="2">4/5</td>
+    </tr>
+    <tr>
+        <td>2019-1-1</td>
+    </tr>
+    <tr>
+        <td>walla</td>
+        <td>2019-1-1</td>
+        <td>4/5</td>
+    </tr>
+    <tr>
+        <td>walla</td>
+        <td>2019-1-1</td>
+        <td>4/5</td>
+    </tr>
+    <tr>
+        <td>walla</td>
+        <td>2019-1-1</td>
+        <td>4/5</td>
+    </tr>
+</table>
+</body>
+</html>

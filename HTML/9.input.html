@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        form{
+            display: table;
+            padding: 10px;
+            border: 1px dotted #E7E7E7;
+            background-color: #efe24b;
+        }
+        form textarea{
+            width: 500px;
+            height: 200px;
+        }
+        .row{
+            display: table-row;
+        }
+        .row p,.row input,.row select,.row textarea{
+            display: table-cell;
+        }
+        .row p{
+            vertical-align: top;
+            padding: 3px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <p>Just do it</p>
+    <div class="row">
+        <p>First name: </p><input type="text" name="name">
+    </div>
+    <div class="row">
+         <p>00:</p>
+        <select name="oo">
+            <option value="1">1</option>
+            <option value="12">12</option>
+        </select>
+    </div>
+    <div class="row">
+         <p>00:</p>
+        <input type="radio" value="1" checked>1<br>
+        <input type="radio" value="2">2<br>
+        <input type="radio" value="3">3
+    </div>
+    <div class="row">
+        <p>text:</p>
+        <textarea cols="20" rows="20" name="55"></textarea>
+    </div>
+    <input type="submit" value="submit">
+
+</form>
+</body>
+</html>
